@@ -8,12 +8,7 @@
    "express": "~4.4.3",
     "cordova": "~4.2.0"
   },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "grunt test"
-  },
+ 
   "cordovaPlugins": [
     "org.apache.cordova.device",
     "org.apache.cordova.console",
