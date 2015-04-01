@@ -1,0 +1,7 @@
+{
+    "name": "Fast Tracker",
+    "description": "SMB App to track and manage Receivables",
+    "repository": "https://github.com/preethisubramaniam/SMB",
+    "logo": "https://node-js-sample.herokuapp.com/node.svg",
+    "keywords": ["node", "express", "ionic", "tracker"]
+}
