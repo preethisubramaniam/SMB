@@ -1,0 +1,26 @@
+ 
+<ion-view view-title="{{mailFormat.subject}}">
+
+   <ion-content padding="true">
+ 
+   
+        <div class="list card">
+         
+              
+                <textarea rows="6" ng-model="mailFormat.mailData"></textarea>
+            </div>
+        
+        </div>  
+ 
+ <div>
+ <br>
+ 
+ </div>
+  
+         <button class="button icon-left ion-star  button-energized"   ng-click="editMailFormat(mailFormat)">Save</button>
+
+          <button class="button icon-left ion-close-round  button-assertive" ng-click="remove(mailFormat)">Delete</button>
+          
+          <button class="button icon-left ion-chevron-left button-positive" ng-click="back()">Back</button>
+    </ion-content>
+</ion-view>

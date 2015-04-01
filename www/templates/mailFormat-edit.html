@@ -1,0 +1,43 @@
+<!--
+  This template loads for the 'tab.friend-detail' state (app.js)
+  'friend' is a $scope variable created in the FriendsCtrl controller (controllers.js)
+  The FriendsCtrl pulls data from the Friends service (service.js)
+  The Friends service returns an array of friend data
+-->
+<!-- <ion-view view-title="{{chat.name}}">
+  <ion-content class="padding">
+    <img ng-src="{{chat.face}}" style="width: 64px; height: 64px">
+    <p>
+      {{chat.lastText}}
+    </p>
+  </ion-content> -->
+
+<ion-view view-title="{{mailFormat.subject}}">
+
+   <ion-content padding="true">
+
+   
+        <div class="list card">
+         
+              
+               <textare ng-model="mailData"> {{mailFormat.contents}} </textarea>
+            </div>
+           <!--  <a class="item item-icon-left" href="#/employees/{{employee.managerId}}" ng-if="employee.managerId > -1"><i class="icon ion-ios7-person"></i>View Manager<p>{{employee.managerName}}</p></a>
+            <a class="item item-icon-left" href="#/employees/{{employee.id}}/reports" ng-if="employee.reports > 0"><i class="icon ion-person-stalker"></i>View Direct Reports<p>{{employee.reports}}</p></a> 
+
+{{employee.officePhone}}
+
+{{employee.cellPhone}}
+
+{{employee.email}} -->
+           
+           <!--  <a class="item item-icon-left" href="tel:1234567891"><i class="icon ion-ios7-telephone"></i>Call Office<p>1234567891</p></a>
+            <a class="item item-icon-left" href="tel:1234567891"><i class="icon ion-ios7-telephone"></i>Call Cell<p>1234567891</p></a>
+            <a class="item item-icon-left" href="sms:1234567891"><i class="icon ion-chatbox-working"></i>SMS<p>1234567891</p></a>
+            <a class="item item-icon-left" ng-click="sendEmail(mailFormat)"><i class="icon ion-ios7-email"></i>Email<p>aaa@gmail.com</p></a> -->
+        </div>  
+
+         <button class="button button-assertive" ng-click="remove(mailFormat)">Delete</button>
+         <button class="button button-positive" ng-click="edit(mailFormat)">Save</button>
+    </ion-content>
+</ion-view>

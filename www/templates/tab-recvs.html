@@ -1,0 +1,25 @@
+<ion-view view-title="Receivables" ng-show="loginSuccess">
+  
+
+  <div class="bar bar-subheader item-input-inset">
+        <label class="item-input-wrapper">
+            <i class="icon ion-ios7-search placeholder-icon"></i>
+            <input id="searchKey" type="search" placeholder="Search" ng-model="searchKey" autocorrect="off" >
+            <button class="button button-clear" ng-click="clearSearch()">X</button>
+        </label>
+        <button class="button button-clear" ng-click="search()">Search</button>
+    </div>
+
+  <ion-content class="has-header has-subheader">
+    <ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="recv in recvs" type="item-text-wrap" href="#/recvs/{{recv.id}}">
+        <img ng-src="images/{{recv.pic}}">
+        <h2>{{recv.firstName}} {{recv.lastName}}</h2>
+        <p>{{recv.amountDue}}</p>
+        <i class="icon ion-chevron-right icon-accessory"></i>    
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
+
+ 
