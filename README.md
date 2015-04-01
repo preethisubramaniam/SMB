@@ -4,7 +4,7 @@ This is a Hybrid Application which helps the users of Small/Medium Business Unit
 It lets the user contact the Debtors using various channels - such as e-mails, SMS, phone directly from the application.
 The settings of these channels can be configured in the application. The reminders can be categorized into Urgent, Gentle etc. and custom messages can be configured in the application. The list of Debtors can be searched through and the user can view complete details of a specific Debtor.
 
-This version of Employee Directory is built with [Ionic](http://ionicframework.com/) and [Node.js]().
+This version of Fast Tracker is built with [Ionic](http://ionicframework.com/) and [Node.js]().
 
 ![alt tag](readme_pics/login_screen.jpg)
 
