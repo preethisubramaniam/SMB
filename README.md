@@ -6,28 +6,22 @@ The settings of these channels can be configured in the application. The reminde
 
 This version of Fast Tracker is built with [Ionic](http://ionicframework.com/) and [Node.js]().
 
-User Login Screen
 ![alt tag](readme_pics/login_screen.jpg)
 
-User Dashboard
 ![alt tag](readme_pics/dashboard.jpg)
 
-Receivables
 ![alt tag](readme_pics/receivables.jpg) 
 
-Search Results
 ![alt tag](readme_pics/search_results.jpg) 
 
-Detail View of Receivable
-![alt tag](readme_pics/recv_detail_view.jpg)  ![alt tag](readme_pics/recv_detail_view_del_back.jpg)
+![alt tag](readme_pics/recv_detail_view.jpg)  
 
-Email Sample - sent when selecting email
+![alt tag](readme_pics/recv_detail_view_del_back.jpg)
+
 ![alt tag](readme_pics/email_sample.jpg)
 
-Mail Settings 
 ![alt tag](readme_pics/mail_setting.jpg)
 
-Edit a Mail Setting
 ![alt tag](readme_pics/mail_reminder_setting.jpg)
 
 It is a Hybrid Application
