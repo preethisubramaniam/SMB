@@ -24,6 +24,15 @@ This version of Fast Tracker is built with [Ionic](http://ionicframework.com/) a
 
 ![alt tag](readme_pics/mail_reminder_setting.jpg)
 
+Video of Working App
+========================
+[Link to Video] (https://www.screenr.com/z26N)
+ ```
+ AUDIO IS NOT VERY CLEAR - WATCH THE DEMO OF WORKING APP IN THE VIDEO FROM 4th min TO 5th MIN.
+ 
+  ```
+
+
 It is a Hybrid Application
 ============================
 
